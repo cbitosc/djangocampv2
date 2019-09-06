@@ -1,0 +1,36 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Amount</th>
+		</tr>
+		{% for i in payments %}
+
+		<tr>
+			<td>{{ i.name }}</td>
+			<td>{{ i.amount }}</td>
+		</tr>
+
+		{% endfor %}
+	</table>
+	<!-- 
+	{% for i in payments %}
+
+		{{ i.name }} 
+		{{ i.branch }}
+		{{ i.amount }}
+		{{ i.status }}
+
+	{% endfor %} -->
+
+
+
+
+	</body>
+	</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<form method="POST" action="">
+		{% csrf_token %}
+
+
+		<label>Name</label>
+		<input type="text" name="name">
+		<br>
+		<label>Branch</label>
+		<input type="text" name="branch">
+		<br>
+		<label>Amount</label>
+		<input type="text" name="amount">
+		<br>
+		<input type="radio" name="status" value="paid">Paid
+		<input type="radio" name="status" value="non">Not Paid
+		<br>
+		<input type="submit" name="">
+	</form>
+
+
+
+</body>
+</html>
