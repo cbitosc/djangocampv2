@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+{% for i in circulars %}
+ <h1>{{ i.content }}</h1>
+ {{ i.date }}
+ {{ i.is_signed }}
+ {{ i.posted_by }}
+ 
+{%endfor%}
+
+
+</body>
+</html>
